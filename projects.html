@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Projects of Deepakraj Ravi - Cloud & DevOps Portfolio" />
+    <meta name="author" content="Deepakraj Ravi" />
+    <title>Projects | Deepakraj Ravi</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <div class="container px-5">
+      <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Deepakraj Ravi</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <section class="py-5">
+    <div class="container px-5">
+      <div class="text-center mb-5">
+        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <!-- CI/CD Automation Pipeline -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0 rounded-4">
+            <img src="assets/cicd.png" class="card-img-top" alt="CI/CD Automation Pipeline" />
+            <div class="card-body">
+              <h5 class="card-title">CI/CD Automation Pipeline</h5>
+              <p class="card-text text-muted">
+                End-to-end GitOps pipeline using Jenkins, SonarQube, Docker, and ArgoCD to build, analyze, and deploy a Spring Boot application on Kubernetes automatically with every commit.<br />
+                <a href="https://github.com/DeepakrajRavi/Jenkins-project" class="text-decoration-none" target="_blank">View Jenkins Project on GitHub</a>
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+              <a href="https://github.com/DeepakrajRavi/Jenkins-project" class="btn btn-outline-primary btn-sm" target="_blank">
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AWS Scalable Web App Deployment -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0 rounded-4">
+            <img src="assets/aws-1.jpg" class="card-img-top" alt="AWS Scalable Web App Deployment" />
+            <div class="card-body">
+              <h5 class="card-title">AWS Scalable Web App Deployment</h5>
+              <p class="card-text text-muted">
+                Successfully deployed a scalable web app on AWS using Multi-AZ Auto Scaling Groups and an Application Load Balancer for high availability.<br />
+                Configured public and private subnets with NAT gateways and S3 gateway integration for secure networking and storage access.<br />
+                Implemented fine-grained security groups and fault-tolerant design to ensure resilience and scalability.<br />
+                Followed AWS best practices to deliver a robust, secure, and scalable cloud infrastructure.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+              <a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html" class="btn btn-outline-primary btn-sm" target="_blank">
+                View AWS Reference
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automated AWS Cost Optimization -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0 rounded-4">
+            <img src="assets/project3.png" class="card-img-top" alt="AWS Cost Optimization" />
+            <div class="card-body">
+              <h5 class="card-title">Automated AWS Cost Optimization</h5>
+              <p class="card-text text-muted">
+                Developed a serverless solution to automatically delete unattached or orphaned EBS snapshots and reduce storage costs.<br />
+                Triggered via CloudWatch schedule, the Lambda function scans snapshots and removes those unused by volumes or terminated instances.<br />
+                Implemented in Python using Boto3 for scalable and efficient AWS resource management.<br />
+                Demonstrates practical DevOps cost-control strategies that adapt to growing infrastructure.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+              <a href="https://github.com/DeepakrajRavi/aws-cicd/blob/main/cost-optimization.py" class="btn btn-outline-primary btn-sm" target="_blank">
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Three Tier Architecture on AWS EKS -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0 rounded-4">
+            <img src="assets/robot.png" class="card-img-top" alt="Three Tier Architecture on AWS EKS" />
+            <div class="card-body">
+              <h5 class="card-title">Three Tier Architecture Deployment on AWS EKS</h5>
+              <p class="card-text text-muted">
+                Stan’s Robot Shop is a sample microservices sandbox for testing container orchestration and monitoring techniques.<br />
+                Deployed on AWS EKS with NodeJS, Java, Python, Go, PHP, MongoDB, Redis, MySQL, RabbitMQ, Nginx, and AngularJS.<br />
+                Integrated Instana for automatic instrumentation, end-to-end tracing, and real-time metrics.<br />
+                Learn more and explore the architecture in my <a href="https://github.com/DeepakrajRavi/three-tier-architecture-EKS" target="_blank" class="text-decoration-none">GitHub repo</a>.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+              <a href="https://github.com/DeepakrajRavi/three-tier-architecture-EKS" class="btn btn-outline-primary btn-sm" target="_blank">
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Game Deployment on AWS EKS -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0 rounded-4">
+            <img src="assets/eks.png" class="card-img-top" alt="Game Deployment on AWS EKS with Fargate + ALB Ingress" />
+            <div class="card-body">
+              <h5 class="card-title">Game Deployment on AWS EKS with Fargate & ALB Ingress</h5>
+              <p class="card-text text-muted">
+                Containerized and deployed the 2048 game on AWS EKS with Fargate for a serverless Kubernetes experience.<br />
+                Automated provisioning and deployment using eksctl, kubectl, and Helm charts.<br />
+                Configured ALB Ingress Controller with NodePort & Ingress across private/public subnets.<br />
+                Gained expertise in networking, IAM roles, OIDC, and production-ready K8s patterns on AWS.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-top-0">
+              <a href="https://github.com/DeepakrajRavi/aws-eks-game-deployment" class="btn btn-outline-primary btn-sm" target="_blank">
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action section -->
+  <section class="py-5 bg-gradient-primary-to-secondary text-white">
+    <div class="container px-5 my-5 text-center">
+      <h2 class="display-4 fw-bolder mb-4">Got a project idea?</h2>
+      <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Let’s Collaborate</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto"><div class="small m-0">© 2025 Deepakraj Ravi. All rights reserved.</div></div>
+        <div class="col-auto">
+          <a class="small" href="#">Privacy</a>
+          <span class="mx-1">&middot;</span>
+          <a class="small" href="#">Terms</a>
+          <span class="mx-1">&middot;</span>
+          <a class="small" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
+
